@@ -1,4 +1,5 @@
 # FROM registry.oikdev.local:5000/haproxy:2.2
+# feature modify
 FROM haproxy:latest
 USER root
 WORKDIR /usr/local/etc/haproxy/
